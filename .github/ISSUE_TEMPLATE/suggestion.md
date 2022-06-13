@@ -1,8 +1,8 @@
 ---
-name: Feature request
+name: Suggestion
 about: Suggest an idea for this project
-title: "[Feature]"
-labels: ''
+title: "[SUGGESTION]"
+labels: enhancement
 assignees: ''
 
 ---
@@ -19,5 +19,7 @@ A clear and concise description of any alternative solutions or features you've 
 **Additional context**
 Add any other context or screenshots about the feature request here.
 
-**Check Boxes**
-[  ] This feature has not been requested before
+**Check boxes**
+- [ ] This feature doesn't already exist in the server
+- [ ] This feature has not been requested before
+- [ ] This feature is a valid suggestion
