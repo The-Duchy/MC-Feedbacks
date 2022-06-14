@@ -1,0 +1,34 @@
+name: Bug report
+about: Create a report to help us improve
+title: "[BUG] "
+labels: bug
+body:
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: |
+        A clear and concise description of what the issue is.
+        Provide as much information as possible, videos, screenshots, crash reports, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: reproducing
+    attributes:
+      label: Steps to reproduce
+      description: How do you trigger this bug?
+      render: bash
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Before submitting a bug report
+      options:
+        - label: |
+            This bug wasn't already reported.
+          required: true
+        - label: |
+            This is a valid bug.
+            (It still exists)
+          required: true
+      
