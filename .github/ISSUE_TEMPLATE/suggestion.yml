@@ -27,7 +27,7 @@ body:
             This feature doesn't already exist in the server
           required: true
         - label: |
-            This feature has not been requested before
+            This has not been suggested before
           required: true
         - label: |
             This feature is a valid suggestion
